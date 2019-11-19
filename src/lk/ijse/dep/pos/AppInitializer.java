@@ -38,7 +38,7 @@ public class AppInitializer extends Application {
             Parent root = FXMLLoader.load(resource);
             Scene mainScene = new Scene(root);
             primaryStage.setScene(mainScene);
-            primaryStage.setTitle("JDBC POS - 2019");
+            primaryStage.setTitle("Point of Sale System");
 //            primaryStage.centerOnScreen();
 //            primaryStage.setResizable(false);
 //            primaryStage.centerOnScreen();
