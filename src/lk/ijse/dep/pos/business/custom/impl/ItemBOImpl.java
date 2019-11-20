@@ -25,7 +25,7 @@ public class ItemBOImpl implements ItemBO {
 
     @Override
     public boolean updateItem(ItemDTO item) throws Exception {
-        return itemDAO.save(new Item(item.getCode(),
+        return itemDAO.update(new Item(item.getCode(),
                 item.getDescription(), item.getUnitPrice(), item.getQtyOnHand()));
     }
 

@@ -144,6 +144,10 @@ public class ManageItemFormController implements Initializable {
                 Logger.getLogger("lk.ijse.dep.pos.controller").log(Level.SEVERE, null,e);
             }
         } else {
+
+
+
+
             ItemTM selectedItem = tblItems.getSelectionModel().getSelectedItem();
             try {
                 itemBO.updateItem(new ItemDTO(selectedItem.getCode(),
